@@ -14,6 +14,13 @@ Class {
 }
 
 { #category : #'as yet unclassified' }
+Button class >> create:aName [
+|temp|.
+temp:=self new.
+^temp initializeButton:aName.
+]
+
+{ #category : #'as yet unclassified' }
 Button class >> create:aName size:aSize [
 |temp|.
 temp:=self new.
@@ -62,6 +69,11 @@ Button >> arguments [
 Button >> arguments: aCollection [
 
 	arguments := aCollection asArray copy.
+]
+
+{ #category : #initialization }
+Button >> centerText [
+label center:self center.
 ]
 
 { #category : #accessing }
@@ -156,8 +168,7 @@ Button >> mouseStillDownStepRate [
 { #category : #accessing }
 Button >> mouseUp:evt [
 	super mouseUp: evt.
-	oldColor ifNotNil:
-		[
+	oldColor ifNotNil:[
 		self color: oldColor.
 		oldColor := nil.
 		(self containsPoint: evt cursorPoint) 
@@ -198,6 +209,16 @@ Button >> target: anObject [
 Button >> text:aString [
 label contents:aString.
 label center:self center.
+]
+
+{ #category : #initialization }
+Button >> textColor [ 
+^label color.
+]
+
+{ #category : #initialization }
+Button >> textColor:aColor [
+label color:aColor.
 ]
 
 { #category : #accessing }
