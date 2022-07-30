@@ -29,6 +29,15 @@ temp text:aName.
 ^temp.
 ]
 
+{ #category : #'as yet unclassified' }
+Button class >> icon:aIcon size:aSize [
+|temp|
+temp :=self new.
+temp extent:aSize.
+temp icon:aIcon.
+^temp
+]
+
 { #category : #accessing }
 Button >> actWhen [
 	^ actWhen
