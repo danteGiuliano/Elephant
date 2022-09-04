@@ -1,4 +1,4 @@
-# Elephant
+# Small-UI
 Librería Grafica de componentes en smalltalk
 
 
