@@ -1,7 +1,7 @@
 Class {
 	#name : #Gif,
 	#superclass : #AnimatedImageMorph,
-	#category : #'Elephant-Display'
+	#category : #'Small-UI-Display'
 }
 
 { #category : #accessing }

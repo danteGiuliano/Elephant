@@ -1,7 +1,7 @@
 Class {
 	#name : #Icon,
 	#superclass : #ImageMorph,
-	#category : #'Elephant-Display'
+	#category : #'Small-UI-Display'
 }
 
 { #category : #accessing }

@@ -17,7 +17,7 @@ Class {
 		'label',
 		'oldColor'
 	],
-	#category : #'Elephant-Buttons'
+	#category : #'Small-UI-Buttons'
 }
 
 { #category : #'as yet unclassified' }

@@ -1,5 +1,5 @@
 Class {
 	#name : #PlaceHolder,
 	#superclass : #RubScrolledTextMorph,
-	#category : #'Elephant-Input'
+	#category : #'Small-UI-Input'
 }

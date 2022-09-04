@@ -1,7 +1,7 @@
 Class {
 	#name : #TextBox,
 	#superclass : #RubScrolledTextMorph,
-	#category : #'Elephant-Input'
+	#category : #'Small-UI-Input'
 }
 
 { #category : #accessing }

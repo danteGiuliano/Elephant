@@ -1,16 +1,16 @@
 Class {
-	#name : #H1,
+	#name : #H6,
 	#superclass : #StringMorph,
-	#category : #'Elephant-Text'
+	#category : #'Small-UI-Text'
 }
 
 { #category : #accessing }
-H1 class >> content:stringContent [
+H6 class >> content:stringContent [
 |temp|
 temp :=self new.
 temp contents:stringContent.
 temp font:(LogicalFont
 				 familyName: StandardFonts defaultFont familyName
-				 pointSize: 32).
+				 pointSize: 9).
 ^temp
 ]

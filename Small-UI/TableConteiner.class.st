@@ -1,5 +1,5 @@
 Class {
 	#name : #TableConteiner,
 	#superclass : #Object,
-	#category : #'Elephant-Table'
+	#category : #'Small-UI-Table'
 }

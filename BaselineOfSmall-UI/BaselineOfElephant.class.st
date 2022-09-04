@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfElephant,
 	#superclass : #BaselineOf,
-	#category : #BaselineOfElephant
+	#category : #'BaselineOfSmall-UI'
 }
 
 { #category : #baselines }
@@ -12,7 +12,7 @@ BaselineOfElephant >> baseline: spec [
 		do: [
 			"Packages"
 			spec
-				package: 'Elephant']
+				package: 'Small-UI']
 ]
 
 { #category : #accessing }

@@ -1,7 +1,7 @@
 Class {
 	#name : #Border,
 	#superclass : #RoundedBorderStyle,
-	#category : #'Elephant-CSS'
+	#category : #'Small-UI-CSS'
 }
 
 { #category : #'as yet unclassified' }
