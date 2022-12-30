@@ -4,7 +4,7 @@ Librería Grafica de componentes en smalltalk
 
 Esta libreria contiene componentes pre programados para ayudarte a desarrollar interfaces graficas, desde botones hasta Gifs 
 
-Puedes probar el set grafico Elephant ejecutando el siguiente script !
+Puedes probar el set grafico Small UI ejecutando el siguiente script !
 
 Por favor , verifique que tenga el tipo de cloning en https, en caso de no saberlo ejecute lo siguiente en playground 
 
