@@ -1,11 +1,11 @@
 Class {
-	#name : #BaselineOfElephant,
+	#name : #BaselineOfSmallUI,
 	#superclass : #BaselineOf,
 	#category : #'BaselineOfSmall-UI'
 }
 
 { #category : #baselines }
-BaselineOfElephant >> baseline: spec [
+BaselineOfSmallUI >> baseline: spec [
 	<baseline>
 	spec
 		for: #pharo
@@ -16,7 +16,7 @@ BaselineOfElephant >> baseline: spec [
 ]
 
 { #category : #accessing }
-BaselineOfElephant >> projectClass [
+BaselineOfSmallUI >> projectClass [
 
 	^ MetacelloCypressBaselineProject
 ]
