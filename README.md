@@ -16,7 +16,7 @@ Script para bajar la libreria:
 
 ```st
 Metacello new
-baseline:'Elephant';
+baseline:'SmallUI';
 repository: 'github://danteGiuliano/Small-UI'; load.
 ```
 Proximamente añadire documentacion con ejemplos 
