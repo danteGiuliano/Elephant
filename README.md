@@ -6,7 +6,7 @@ Esta libreria contiene componentes pre programados para ayudarte a desarrollar i
 
 Puedes probar el set grafico Small UI ejecutando el siguiente script !
 
-Por favor , verifique que tenga el tipo de cloning en https, en caso de no saberlo ejecute lo siguiente en playground 
+Por favor , verifique que tenga el tipo de cloning en https, en caso de no saberlo ejecute lo siguiente en playground para activarlo
 
 ```st
 Iceberg remoteTypeSelector: #httpsUrl
